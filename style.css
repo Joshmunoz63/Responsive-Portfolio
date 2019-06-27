@@ -1,0 +1,212 @@
+header {
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 20px;
+    height: 75px;
+    width: 200px;
+    position: absolute;
+    color: white;
+    top: 0%;
+    left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    float: left;
+    background-image: url("http://school298.spb.ru/images/700/DSC100700881.png");
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0% auto;
+    font-family: 'Bangers', cursive;
+}
+
+.banner {
+    background: #ffffff;
+    border-bottom: 5px solid grey;
+    height: 115px;
+}
+
+p{
+    margin: 2%;
+    margin-top: 10%;
+    float: left;
+    width: 500px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+h2{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    color: #4aaaa5;
+}
+.line1{
+    background-color: gray;
+    height: 5px;
+    width: 100%;
+    left: 5px;
+    position: absolute;
+    top: 110px;
+}
+.line2{
+    background-color: #4aaaa5;
+    position: absolute;
+    height: 5px;
+    left: 0px;
+    bottom: 60px;
+    width: 100%;
+}
+.line3{
+    background-color: grey;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-top: 5px solid #4aaaa5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.line4{
+    background-color: grey;
+    position: absolute;
+    height: 3px;
+    width: 915px;
+    top: 60px;
+    left: 20px;
+}
+.backgroundimg{
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    
+}
+.container{
+    background-color: white;
+    width: 960px;
+    height: 400px;
+    z-index: 20;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.contact{
+    position: absolute;
+    top: 70px;
+    right: 230px;
+}
+.form1{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+.form2{
+    position: absolute;
+    top: 140px;
+    left: 42px;
+}
+.form3{
+    position: absolute;
+    top: 180px;
+    left: 17px;
+}
+button{
+    position: absolute;
+    top: 220px;
+    left: 85px;
+    background-color: #4aaaa5;
+    color: white;
+}
+img{
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+.hangman{
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 20px;
+    height: 10px;
+    width: 152px;
+    position: absolute;
+    color: white;
+    top: 190px;
+    left: 20px;
+}
+.rpggame{
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 20px;
+    height: 10px;
+    width: 152px;
+    position: absolute;
+    color: white;
+    top: 190px;
+    left: 250px;
+}
+.rx7{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+.iq{
+    position: absolute;
+    top: 80px;
+    left: 480px;
+}
+.trivia{
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 20px;
+    height: 10px;
+    width: 152px;
+    position: absolute;
+    color: white;
+    top: 190px;
+    left: 480px;
+}
+.spaceship{
+    position: absolute;
+    top: 80px;
+    left: 710px;
+}
+.rock{
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 20px;
+    height: 10px;
+    width: 152px;
+    position: absolute;
+    color: white;
+    top: 190px;
+    left: 710px;
+}
+@media screen and (min-width: 980px) {
+    body {
+        width: 75%;
+        height: 75%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    body {
+        width: 50%;
+        height: 50%;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    body {
+        width: 25%;
+        height: 25%;
+    }
+  }
